@@ -1,6 +1,7 @@
 const productsServices = require('../services/productsServices');
 
 const listAllProducts = async (_req, res) => {
+  console.log('controller');
   const products = await productsServices.listAllProducts();
   return res.status(200).json(products);
 };

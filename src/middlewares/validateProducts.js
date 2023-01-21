@@ -6,8 +6,10 @@ const validateName = Joi.object({ name: Joi.string().required().min(5) });
   const { name } = req.body;
   const { error } = validateName.validate({ name });
   if (error) {
-    return res.status(`${(error.details[0].type === 'string.min') ? 422 : 400}`)
-      .json({ message: error.message });
+    if (error.details[0].type === 'string.min') {
+      return res.status(422).json({ message: error.message });
+    } 
+    return res.status(400).json({ message: error.message });
   }
   next();
 };
