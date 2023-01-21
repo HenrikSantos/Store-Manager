@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2023-01-17T19:29:38.000Z",
+    "productId": 1,
+    "quantity": 5
+  },
+  {
+    "date": "2023-01-17T19:29:38.000Z",
+    "productId": 1,
+    "quantity": 123
+  },
+  {
+    "date": "2023-01-17T19:29:38.000Z",
+    "productId": 1,
+    "quantity": 123
+  },
+  {
+    "date": "2023-01-17T19:29:38.000Z",
+    "productId": 1,
+    "quantity": 123
+  },
+  {
+    "date": "2023-01-17T19:29:38.000Z",
+    "productId": 2,
+    "quantity": 10
+  },
+  {
+    "date": "2023-01-17T19:29:38.000Z",
+    "productId": 2,
+    "quantity": 123
+  }
+]
